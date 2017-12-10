@@ -1,0 +1,6 @@
+[submodule "usbguard"]
+	path = usbguard
+	url = https://aur.archlinux.org/usbguard.git
+[submodule "keybase-bin"]
+	path = keybase-bin
+	url = https://aur.archlinux.org/keybase-bin.git
