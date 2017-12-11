@@ -4,3 +4,9 @@
 [submodule "keybase-bin"]
 	path = keybase-bin
 	url = https://aur.archlinux.org/keybase-bin.git
+[submodule "i3-gaps"]
+	path = i3-gaps
+	url = https://aur.archlinux.org/i3-gaps.git
+[submodule "i3-scrot"]
+	path = i3-scrot
+	url = https://aur.archlinux.org/i3-scrot.git
