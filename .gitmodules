@@ -10,3 +10,6 @@
 [submodule "i3-scrot"]
 	path = i3-scrot
 	url = https://aur.archlinux.org/i3-scrot.git
+[submodule "google-chrome"]
+	path = google-chrome
+	url = https://aur.archlinux.org/google-chrome.git
