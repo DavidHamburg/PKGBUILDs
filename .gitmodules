@@ -46,3 +46,15 @@
 [submodule "peek"]
 	path = peek
 	url = https://aur.archlinux.org/peek.git
+[submodule "fetchpkg"]
+	path = fetchpkg
+	url = https://aur.archlinux.org/fetchpkg.git
+[submodule "fetchmirrors"]
+	path = fetchmirrors
+	url = https://aur.archlinux.org/fetchmirrors.git
+[submodule "pamac-aur"]
+	path = pamac-aur
+	url = https://aur.archlinux.org/pamac-aur.git
+[submodule "package-query"]
+	path = package-query
+	url = https://aur.archlinux.org/package-query.git
