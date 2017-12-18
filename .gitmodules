@@ -43,3 +43,6 @@
 [submodule "timeshift"]
 	path = timeshift
 	url = https://aur.archlinux.org/timeshift.git
+[submodule "peek"]
+	path = peek
+	url = https://aur.archlinux.org/peek.git
