@@ -16,3 +16,30 @@
 [submodule "vmware-workstation"]
 	path = vmware-workstation
 	url = https://aur.archlinux.org/vmware-workstation.git
+[submodule "yaourt"]
+	path = yaourt
+	url = https://aur.archlinux.org/yaourt.git
+[submodule "polybar"]
+	path = polybar
+	url = https://aur.archlinux.org/polybar.git
+[submodule "polybar-git"]
+	path = polybar-git
+	url = https://aur.archlinux.org/polybar-git.git
+[submodule "libqb-git"]
+	path = libqb-git
+	url = https://aur.archlinux.org/libqb-git.git
+[submodule "neomutt-git"]
+	path = neomutt-git
+	url = https://aur.archlinux.org/neomutt-git.git
+[submodule "freerdp-git"]
+	path = freerdp-git
+	url = https://aur.archlinux.org/freerdp-git.git
+[submodule "remmina-git"]
+	path = remmina-git
+	url = https://aur.archlinux.org/remmina-git.git
+[submodule "sublime-text-dev"]
+	path = sublime-text-dev
+	url = https://aur.archlinux.org/sublime-text-dev.git
+[submodule "timeshift"]
+	path = timeshift
+	url = https://aur.archlinux.org/timeshift.git
