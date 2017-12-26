@@ -33,7 +33,7 @@ _repo_contains() {
 
 _make_package() {
     cd $1
-    echo "makepkg"
+    /usr/bin/makechrootpkg -c -r ~/chroot -- -i
     if [ $? -ne 0 ]; then
         echo "makepkg failed." >&2
         exit 1

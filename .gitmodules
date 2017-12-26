@@ -28,9 +28,6 @@
 [submodule "libqb-git"]
 	path = libqb-git
 	url = https://aur.archlinux.org/libqb-git.git
-[submodule "neomutt-git"]
-	path = neomutt-git
-	url = https://aur.archlinux.org/neomutt-git.git
 [submodule "freerdp-git"]
 	path = freerdp-git
 	url = https://aur.archlinux.org/freerdp-git.git
@@ -58,3 +55,6 @@
 [submodule "package-query"]
 	path = package-query
 	url = https://aur.archlinux.org/package-query.git
+[submodule "openh264"]
+	path = openh264
+	url = https://aur.archlinux.org/openh264.git
