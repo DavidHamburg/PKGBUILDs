@@ -26,10 +26,10 @@
 	path = polybar-git
 	url = https://aur.archlinux.org/polybar-git.git
 [submodule "libqb-git"]
-	path = libqb-git
+	path = 150-libqb-git
 	url = https://aur.archlinux.org/libqb-git.git
 [submodule "freerdp-git"]
-	path = freerdp-git
+	path = 100-freerdp-git
 	url = https://aur.archlinux.org/freerdp-git.git
 [submodule "remmina-git"]
 	path = remmina-git
@@ -56,5 +56,5 @@
 	path = package-query
 	url = https://aur.archlinux.org/package-query.git
 [submodule "openh264"]
-	path = openh264
+	path = 50-openh264
 	url = https://aur.archlinux.org/openh264.git
