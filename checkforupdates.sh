@@ -13,8 +13,8 @@ NC='\033[0m'
 # _update_git <dir_name>
 _update_git() {
     cd $1
-    git checkout master > /dev/null 2> /dev/null
-    git pull origin master > /dev/null 2> /dev/null
+    sudo -u $SUDO_USER git checkout master > /dev/null 2> /dev/null
+    sudo -u $SUDO_USER git pull origin master > /dev/null 2> /dev/null
     cd - > /dev/null
 }
 
@@ -23,7 +23,7 @@ _repo_contains() {
     pkgname="$1"
     pkgver="$2"
     pkgrel="$3"
-    /usr/bin/bsdtar -xOqf $repo "$pkgname-$pkgver-$pkgrel" 2> /dev/null
+    sudo -u $SUDO_USER /usr/bin/bsdtar -xOqf $repo "$pkgname-$pkgver-$pkgrel" 2> /dev/null
     if [ $? -eq 1 ]; then
         return 1 # false
     else
@@ -33,9 +33,10 @@ _repo_contains() {
 
 _make_package() {
     cd $1
-    /usr/bin/makechrootpkg -c -r ~/chroot -- -i
+    HOMEDIR="$(eval echo "~$SUDO_USER")"
+    /usr/bin/makechrootpkg -c -r $HOMEDIR/chroot -- -i
     if [ $? -ne 0 ]; then
-        echo "makepkg failed." >&2
+        echo "makechrootpkg failed." >&2
         exit 1
     fi
     cd - > /dev/null
@@ -44,7 +45,7 @@ _make_package() {
 # _pkg_build_srcinfo <packagedir>
 _pkg_build_srcinfo() {
     cd $1
-    gitsrcinfo="$(/usr/bin/makepkg --printsrcinfo > /tmp/mypkgsrcinfo)"
+    gitsrcinfo="$(sudo -u $SUDO_USER /usr/bin/makepkg --printsrcinfo > /tmp/mypkgsrcinfo)"
     #echo "$gitsrcinfo"
     cd - > /dev/null
 }
