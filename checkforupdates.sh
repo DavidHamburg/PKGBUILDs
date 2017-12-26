@@ -34,7 +34,8 @@ _repo_contains() {
 _make_package() {
     cd $1
     HOMEDIR="$(eval echo "~$SUDO_USER")"
-    /usr/bin/makechrootpkg -c -r $HOMEDIR/chroot -- -i
+    #/usr/bin/makechrootpkg -c -r $HOMEDIR/chroot -- -i
+    /usr/bin/makechrootpkg -r $HOMEDIR/chroot -- -i
     if [ $? -ne 0 ]; then
         echo "makechrootpkg failed." >&2
         exit 1

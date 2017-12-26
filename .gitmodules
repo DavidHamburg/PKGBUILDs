@@ -58,3 +58,6 @@
 [submodule "openh264"]
 	path = 50-openh264
 	url = https://aur.archlinux.org/openh264.git
+[submodule "200-ncurses5-compat-libs"]
+	path = 200-ncurses5-compat-libs
+	url = https://aur.archlinux.org/ncurses5-compat-libs.git
