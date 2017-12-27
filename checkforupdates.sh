@@ -15,6 +15,9 @@ _update_git() {
     cd $1
     sudo -u $SUDO_USER git checkout master > /dev/null 2> /dev/null
     sudo -u $SUDO_USER git pull origin master > /dev/null 2> /dev/null
+    if [[ $1 == *"-git" ]]; then
+        sudo -u $SUDO_USER makepkg --nobuild ?> /dev/null
+    fi
     cd - > /dev/null
 }
 
