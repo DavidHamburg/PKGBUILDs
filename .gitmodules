@@ -63,4 +63,4 @@
 	url = https://aur.archlinux.org/ncurses5-compat-libs.git
 [submodule "entityx-git"]
 	path = entityx-git
-	url = https://aur.archlinux.org/entityx-git.git
+	url = https://github.com/DavidHamburg/aur-entityx-git.git
