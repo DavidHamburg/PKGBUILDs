@@ -79,3 +79,9 @@
 [submodule "codecs64"]
 	path = codecs64
 	url = https://aur.archlinux.org/codecs64.git
+[submodule "remmina-plugin-rdesktop"]
+	path = remmina-plugin-rdesktop
+	url = https://aur.archlinux.org/remmina-plugin-rdesktop.git
+[submodule "acsccid"]
+	path = acsccid
+	url = https://aur.archlinux.org/acsccid.git
