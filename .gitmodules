@@ -67,3 +67,15 @@
 [submodule "neomutt-git"]
 	path = neomutt-git
 	url = https://aur.archlinux.org/neomutt-git.git
+[submodule "mutt-vid"]
+	path = mutt-vid
+	url = https://aur.archlinux.org/mutt-vid.git
+[submodule "openvpn-update-resolv-conf-git"]
+	path = openvpn-update-resolv-conf-git
+	url = https://aur.archlinux.org/openvpn-update-resolv-conf-git.git
+[submodule "open-vm-tools-dkms"]
+	path = open-vm-tools-dkms
+	url = https://aur.archlinux.org/open-vm-tools-dkms.git
+[submodule "codecs64"]
+	path = codecs64
+	url = https://aur.archlinux.org/codecs64.git
