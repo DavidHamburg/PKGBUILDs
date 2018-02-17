@@ -64,3 +64,6 @@
 [submodule "entityx-git"]
 	path = entityx-git
 	url = https://github.com/DavidHamburg/aur-entityx-git.git
+[submodule "neomutt-git"]
+	path = neomutt-git
+	url = https://aur.archlinux.org/neomutt-git.git
