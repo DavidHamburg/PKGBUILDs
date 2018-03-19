@@ -85,3 +85,6 @@
 [submodule "acsccid"]
 	path = acsccid
 	url = https://aur.archlinux.org/acsccid.git
+[submodule "benchmark"]
+	path = benchmark
+	url = https://aur.archlinux.org/benchmark.git
